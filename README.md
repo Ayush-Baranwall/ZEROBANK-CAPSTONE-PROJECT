@@ -52,11 +52,6 @@ This repository contains an end-to-end test automation suite for the **Zero Bank
   Generated in the `reports` folder (or your configured output directory) after the tests finish executing.
 
 ---
-Markdown
-
-# Zero Bank Capstone Project
-
-This project is an automated testing framework for Zero Bank's web application, built using Selenium WebDriver, Cucumber, and TestNG. It follows the Page Object Model design pattern for maintainable and scalable test automation.
 
 ## Project Structure
 
