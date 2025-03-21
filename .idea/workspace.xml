@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc0ce8dc-a752-45cb-b847-1da315fbc823" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/AccountOverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/BillPaymentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/DocumentDownloadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/MoneyTransferPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/UserLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/UserLogoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/runners/RunnerFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/AccountSummaryStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/BillPaymentSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/DocumentDownloadSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/MoneyTransferSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/UserLoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/UserLogoutSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/utils/DriverBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/utils/ReportUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/AccountOverview.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/DocumentDownload.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/MoneyTransfer.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/Payment.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/UserLogin.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/UserLogout.feature" afterDir="false" />
-    </list>
+    <list default="true" id="dc0ce8dc-a752-45cb-b847-1da315fbc823" name="Changes" comment="Committing to Github" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +55,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -205,6 +178,15 @@
       <option name="presentableId" value="Default" />
       <updated>1742544048894</updated>
     </task>
+    <task id="LOCAL-00001" summary="Committing to Github">
+      <option name="closed" value="true" />
+      <created>1742551895363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742551895363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,5 +199,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Committing to Github" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing to Github" />
   </component>
 </project>
