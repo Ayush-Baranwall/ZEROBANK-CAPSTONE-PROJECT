@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="238.886" tests="15" skipped="0" failures="5" errors="0">
+<testcase classname="Account Summary" name="Verify account details and balances" time="10.112">
+<system-out><![CDATA[
+Given User is logged in.....................................................passed
+When User navigates to the account summary page.............................passed
+Then The account details should be displayed................................passed
+And The account balances should be correct..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Download Account Statement" name="Download Account Statement pdf" time="10.203">
+<system-out><![CDATA[
+Given user login with "username" and "password".............................passed
+When user navigate to Statements & Documents................................passed
+Then user select an account and a date range................................passed
+And click on Download PDF button............................................passed
+And user clicks on Keep in the download permission..........................passed
+Then the user should verify the downloaded PDF file in the download section.passed
+]]></system-out>
+</testcase>
+<testcase classname="Fund Transfer" name="Transfer funds between accounts" time="10.613">
+<system-out><![CDATA[
+Given the user is logged in.................................................passed
+When the user navigates to the fund transfer page...........................passed
+And selects the sender and the reciever.....................................passed
+And enters the "700" and click submit.......................................passed
+Then a success message should be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fund Transfer" name="Transfer funds between accounts with more than present balance" time="30.2">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.zerobank.steps.MoneyTransferSteps.it_should_show_message(MoneyTransferSteps.java:58)
+	at ✽.it should show "Insufficient funds" message(file:///C:/Users/djnag/ZEROBANK-CAPSTONE-PROJECT/zero-bank-capstone/src/test/resources/features/MoneyTransfer.feature:19)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user is logged in.................................................passed
+When the user navigates to the fund transfer page...........................passed
+And selects the sender and the reciever.....................................passed
+And enters the "4500" and click submit......................................passed
+Then it should show "Insufficient funds" message............................failed
+]]></system-out>
+</testcase>
+<testcase classname="Fund Transfer" name="Transfer funds between accounts with negative amount" time="32.446">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.zerobank.steps.MoneyTransferSteps.it_should_show_message(MoneyTransferSteps.java:58)
+	at ✽.it should show "Invalid amount entered" message(file:///C:/Users/djnag/ZEROBANK-CAPSTONE-PROJECT/zero-bank-capstone/src/test/resources/features/MoneyTransfer.feature:27)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user is logged in.................................................passed
+When the user navigates to the fund transfer page...........................passed
+And selects the sender and the reciever.....................................passed
+And enters the "-500" and click submit......................................passed
+Then it should show "Invalid amount entered" message........................failed
+]]></system-out>
+</testcase>
+<testcase classname="Bill Payment" name="Pay bills to payees" time="11.956">
+<system-out><![CDATA[
+Given the user is logged in.................................................passed
+When the user navigates to the bill payment page............................passed
+And selects a payee.........................................................passed
+Then enters "567" as amount and "17-03-2025"................................passed
+And clicks on the pay button................................................passed
+Then Success message "The payment was successfully submitted." is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Bill Payment" name="Pay bills to payees with future date" time="11.344">
+<system-out><![CDATA[
+Given the user is logged in.................................................passed
+When the user navigates to the bill payment page............................passed
+And selects a payee.........................................................passed
+Then enters "567" as amount and "17-12-2026"................................passed
+And clicks on the pay button................................................passed
+Then message "Payment should be scheduled successfully." is displayed.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Bill Payment" name="Pay bills to payees by skipping amount section and trying to pay" time="35.71">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.zerobank.steps.BillPaymentSteps.error_message_should_be_displayed(BillPaymentSteps.java:93)
+	at ✽.Error message "Amount field cannot be empty." should be displayed(file:///C:/Users/djnag/ZEROBANK-CAPSTONE-PROJECT/zero-bank-capstone/src/test/resources/features/Payment.feature:28)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user is logged in.................................................passed
+When the user navigates to the bill payment page............................passed
+And selects a payee.........................................................passed
+Then enters "" as amount and "17-03-2025"...................................passed
+And clicks on the pay button................................................passed
+Then Error message "Amount field cannot be empty." should be displayed......failed
+]]></system-out>
+</testcase>
+<testcase classname="Bill Payment" name="Adding a new Payee" time="12.253">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.zerobank.steps.BillPaymentSteps.successful_message_displayed(BillPaymentSteps.java:128)
+	at ✽.Successful message "Payee should be added successfully." displayed(file:///C:/Users/djnag/ZEROBANK-CAPSTONE-PROJECT/zero-bank-capstone/src/test/resources/features/Payment.feature:37)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user is logged in.................................................passed
+When the user navigates to the bill payment page............................passed
+Then add new payee..........................................................passed
+And add name="Ayush",address="123TestCity",accountNo="1234567890"...........passed
+And clicks on the add button................................................passed
+Then Successful message "Payee should be added successfully." displayed.....failed
+]]></system-out>
+</testcase>
+<testcase classname="Bill Payment" name="Adding a new Payee with missing details" time="31.825">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.zerobank.steps.BillPaymentSteps.error_message_should_be_displayed(BillPaymentSteps.java:93)
+	at ✽.Error message "All fields are required." should be displayed(file:///C:/Users/djnag/ZEROBANK-CAPSTONE-PROJECT/zero-bank-capstone/src/test/resources/features/Payment.feature:46)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user is logged in.................................................passed
+When the user navigates to the bill payment page............................passed
+Then add new payee..........................................................passed
+And add the "","123TestCity","123456789","savings"..........................passed
+And clicks on the add button................................................passed
+Then Error message "All fields are required." should be displayed...........failed
+]]></system-out>
+</testcase>
+<testcase classname="User Authentication" name="User Authentication with valid credentials" time="9.46">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters "username" and "password" in respective field..............passed
+And User clicks the login button............................................passed
+Then User is navigated to their account.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Authentication" name="User Authentication with invalid credentials" time="6.649">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters "user" and "pass" in respective field......................passed
+And User clicks the login button2...........................................passed
+Then It should be on login page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Authentication" name="User Authentication with n credentials" time="6.926">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters " " and "" in respective field.............................passed
+And User clicks the login button2...........................................passed
+Then It should be on login page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout Functionality" name="Logout Successfully" time="9.091">
+<system-out><![CDATA[
+Given The user is logged into the Zero Bank platform with "username" and "password".passed
+When The user clicks on the Logout button...................................passed
+Then The user should be redirected to the login page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout Functionality" name="Verify Session Expiry After Logout" time="9.406">
+<system-out><![CDATA[
+Given The user is logged into the Zero Bank platform with "username" and "password".passed
+And The user logs out of the application....................................passed
+When The user clicks the Back button in the browser.........................passed
+Then The user should not be able to access the previous page................passed
+]]></system-out>
+</testcase>
+</testsuite>

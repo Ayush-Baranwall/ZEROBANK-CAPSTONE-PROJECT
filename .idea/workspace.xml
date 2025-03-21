@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc0ce8dc-a752-45cb-b847-1da315fbc823" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/AccountOverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/BillPaymentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/DocumentDownloadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/MoneyTransferPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/UserLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/UserLogoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/runners/RunnerFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/AccountSummaryStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/BillPaymentSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/DocumentDownloadSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/MoneyTransferSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/UserLoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/steps/UserLogoutSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/utils/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/utils/DriverBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/utils/ReportUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/AccountOverview.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/DocumentDownload.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/MoneyTransfer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/Payment.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/UserLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/UserLogout.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/zero-bank-capstone/src/test/java/com/zerobank/pages/MoneyTransferPage.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ucNkYqTwMOucRxHsoQo2YsYdoW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: AccountOverview.executor": "Run",
+    "Cucumber Java.Feature: DocumentDownload.executor": "Run",
+    "Cucumber Java.Feature: MoneyTransfer.executor": "Run",
+    "Cucumber Java.Feature: Payment.executor": "Run",
+    "Cucumber Java.Feature: UserLogin.executor": "Run",
+    "Cucumber Java.Feature: UserLogout.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/djnag/ZEROBANK-CAPSTONE-PROJECT/zero-bank-capstone/src/test/java/com/zerobank/runners/RunnerFile.xml.executor": "Run",
+    "TestNG.RunnerFile.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/djnag/ZEROBANK-CAPSTONE-PROJECT/zero-bank-capstone/src/test/java/com/zerobank/runners",
+    "onboarding.tips.debug.path": "C:/Users/djnag/ZEROBANK-CAPSTONE-PROJECT/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\djnag\ZEROBANK-CAPSTONE-PROJECT\zero-bank-capstone\src\test\java\com\zerobank\runners" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: AccountOverview">
+    <configuration name="Feature: AccountOverview" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/AccountOverview.feature" />
+      <option name="GLUE" value="com.zerobank.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ZEROBANK-CAPSTONE-PROJECT" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AccountOverview" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: DocumentDownload" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/DocumentDownload.feature" />
+      <option name="GLUE" value="com.zerobank.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ZEROBANK-CAPSTONE-PROJECT" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: DocumentDownload" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: MoneyTransfer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/MoneyTransfer.feature" />
+      <option name="GLUE" value="com.zerobank.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ZEROBANK-CAPSTONE-PROJECT" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: MoneyTransfer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Payment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/Payment.feature" />
+      <option name="GLUE" value="com.zerobank.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ZEROBANK-CAPSTONE-PROJECT" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Payment" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: UserLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/zero-bank-capstone/src/test/resources/features/UserLogin.feature" />
+      <option name="GLUE" value="com.zerobank.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ZEROBANK-CAPSTONE-PROJECT" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: UserLogin" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: AccountOverview" />
+        <item itemvalue="Cucumber Java.Feature: DocumentDownload" />
+        <item itemvalue="Cucumber Java.Feature: MoneyTransfer" />
+        <item itemvalue="Cucumber Java.Feature: Payment" />
+        <item itemvalue="Cucumber Java.Feature: UserLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc0ce8dc-a752-45cb-b847-1da315fbc823" name="Changes" comment="" />
+      <created>1742544048894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742544048894</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
